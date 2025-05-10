@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(ellipse at center, #0b0c1a 0%, #000000 100%);
+  color: #dcd0ff;
+  font-family: 'Uncial Antiqua', cursive;
+  line-height: 1.7;
+  background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+}
+
+header {
+  background: rgba(18, 10, 40, 0.85);
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 2px solid #4c3488;
+  box-shadow: 0 0 30px #532d8c;
+}
+
+header h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 3.5em;
+  color: #b389ff;
+  margin: 0;
+  letter-spacing: 4px;
+  text-shadow: 0 0 10px #a872ff, 0 0 20px #a872ff;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+.container {
+  max-width: 960px;
+  margin: 50px auto;
+  padding: 0 25px;
+  background-color: rgba(25, 10, 45, 0.65);
+  border: 1px solid #553a9d;
+  box-shadow: 0 0 25px #442277;
+  border-radius: 10px;
+}
+
+h2 {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #d4bfff;
+  font-size: 1.8em;
+  border-bottom: 1px dashed #7e66c4;
+  padding-bottom: 5px;
+  margin-top: 40px;
+  text-shadow: 0 0 8px #ab92ff;
+}
+
+p, li {
+  font-size: 1.2em;
+  color: #d7ccff;
+}
+
+blockquote {
+  font-style: italic;
+  color: #cbb9ff;
+  border-left: 3px solid #7b5bd6;
+  padding-left: 15px;
+  margin: 25px 0;
+  text-shadow: 0 0 5px #8e66f1;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 25px;
+}
+
+li::marker {
+  color: #ba9eff;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  color: #8880c2;
+  font-size: 1em;
+  font-style: italic;
+  text-shadow: 0 0 4px #7e6dc9;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #a872ff, 0 0 10px #a872ff, 0 0 15px #a872ff;
+  }
+  to {
+    text-shadow: 0 0 20px #b982ff, 0 0 30px #b982ff, 0 0 40px #b982ff;
+  }
+}
